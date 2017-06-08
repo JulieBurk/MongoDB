@@ -1,0 +1,32 @@
+{
+  "name": "volunteerdigest",
+  "version": "1.0.0",
+  "description": "scrapping news articles and store them in mongodb",
+  "main": "server.js",
+  "dependencies": {
+    "favicon": "^0.0.2",
+    "path": "^0.12.7",
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.7.6",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulieBurk/MongoDB.git"
+  },
+  "author": "Julie Burk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulieBurk/MongoDB/issues"
+  },
+  "homepage": "https://github.com/JulieBurk/MongoDB#readme"
+}
