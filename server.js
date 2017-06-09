@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({
 // Make public a static dir
 app.use(express.static("public"));
 
-// Set Handlebars.
+// Set Handlebars. Boilerplate code.
 var exphbs = require("express-handlebars");
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
