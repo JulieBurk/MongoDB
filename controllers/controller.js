@@ -191,7 +191,7 @@ var router = express.Router();
       }
       // Otherwise
       else {
-        // Find our user and push the new note id into the User's notes array
+        // Find user and push the new note id into the User's notes array
         Article.findOneAndUpdate({"_id": req.params.id}, { $push: { "note": doc._id } }, { new: true }, function(err, newdoc) {
           // Send any errors to the browser
           if (err) {

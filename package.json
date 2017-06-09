@@ -2,7 +2,7 @@
   "name": "volunteerdigest",
   "version": "1.0.0",
   "description": "scrapping news articles and store them in mongodb",
-  "main": "server.js",
+  "main": "index.js",
   "dependencies": {
     "favicon": "^0.0.2",
     "path": "^0.12.7",
